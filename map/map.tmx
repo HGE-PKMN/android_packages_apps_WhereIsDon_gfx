@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="objects" tilewidth="32" tileheight="32">
+  <image source="objects/objects_tiled_ready.png" width="448" height="224"/>
+ </tileset>
+ <tileset firstgid="99" name="ground" tilewidth="32" tileheight="32">
+  <image source="floors/ground_floor/texture.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="101" name="1st" tilewidth="32" tileheight="32">
+  <image source="floors/1st_floor/texture.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="103" name="2nd" tilewidth="32" tileheight="32">
+  <image source="floors/2nd_floor/texture.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="105" name="roof" tilewidth="32" tileheight="32">
+  <image source="floors/roof_floor/texture.png" width="64" height="32"/>
+ </tileset>
+ <layer name="ground" width="51" height="47">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENwCAMRUHvCvvPkJIiRQqD8oXO0iuRONMwq2qG1J2/73/CMhrtOM/CwsLCwsLybdG7zl677X5XFhYWFhYWlmyLP0zmu7CwsLCwsKRbbuqmvSZYusPCwsLCwnLSkhDLmgfgVBjz
+  </data>
+ </layer>
+ <layer name="1st" width="51" height="47">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsOgCAQQEHuKnr/I1haGGOxfDezySshDDTUUkpdpOjMPn8PyxmoxXoWFhYWFhaWf4veRe41Wut3ZWHpbbkG1ttyDIqFhYXl6yzRZlsyvQsLy06WTP+xyF7RWFh2s2Qq072uYIkOCwsLCwtLT8sKsTxzAyANIxY=
+  </data>
+ </layer>
+ <layer name="2nd" width="51" height="47">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsOgCAQQEHuKtH738DSwhiL5buZTV4JYaChllLqIkVn9vl7WK5ALdazsLCwsLCw/Fv0LnKv0Vq/KwtLb8s5sN6WY1AsLCwsX2eJNtuS6V1YWHayZPqPRfaKxsKymyVTme51BUt0WFhYWFhYelpWiOWZGwHtLHY=
+  </data>
+ </layer>
+ <layer name="roof" width="51" height="47">
+  <data encoding="base64" compression="zlib">
+   eJzt2DsKgDAQRdHsVsz+F2ApWAn5zFPOwK0zJ5AmvbXWQxqd6v1XWM7CWFhYWFhYWN5ZZsWSEUtmLJmxZMYy/9wZ51dajkcsLLMtf3kvO+6neh8WluRYMmPZs8uX/2H+aBkdFhYWFhaWlZaEWO65AC50SGU=
+  </data>
+ </layer>
+</map>

@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="1">
- <tileset firstgid="1" source="floors/floors_tiled_ready.tsx"/>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="73">
+ <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="floors/floors_tiled_ready.png" width="67" height="133"/>
+ </tileset>
  <layer name="Kachelebene 1" width="51" height="47">
   <data encoding="base64" compression="zlib">
    eJzt1jEOgCAMQFGM3P/Mjg4ODKUCzWvyR40PIqG31vomRWf192dY7kAznmdhYWFhYWEZW/Qtsq7RZu8rC0u2ZeW/Odty/RQLCwtL1pm62lJpX1hYTrJUuo9F3hWNheU0S6UqresOluiwsLCwsLBkWnaI5Z0HHU8X6w==
   </data>
  </layer>
+ <objectgroup name="Objektebene 1">
+  <properties>
+   <property name="wall" value="true"/>
+  </properties>
+  <object id="47" x="0" y="0" width="1120" height="64"/>
+  <object id="48" x="1056" y="64" width="64" height="288"/>
+  <object id="49" x="1056" y="352" width="576" height="64"/>
+  <object id="50" x="1056" y="1088" width="576" height="64"/>
+  <object id="51" x="1568" y="416" width="64" height="672"/>
+  <object id="52" x="0" y="64" width="64" height="1376"/>
+  <object id="53" x="0" y="1440" width="1120" height="64"/>
+  <object id="54" x="1056" y="1152" width="64" height="288"/>
+  <object id="55" x="1056" y="736" width="512" height="32"/>
+  <object id="56" x="544" y="64" width="32" height="352"/>
+  <object id="57" x="544" y="1088" width="32" height="352"/>
+  <object id="58" x="64" y="1088" width="384" height="32"/>
+  <object id="59" x="480" y="1088" width="64" height="32"/>
+  <object id="60" x="576" y="1088" width="64" height="32"/>
+  <object id="61" x="672" y="1088" width="384" height="32"/>
+  <object id="62" x="1056" y="768" width="32" height="64"/>
+  <object id="63" x="1056" y="864" width="32" height="224"/>
+  <object id="64" x="1056" y="672" width="32" height="64"/>
+  <object id="65" x="1056" y="416" width="32" height="224"/>
+  <object id="66" x="576" y="384" width="64" height="32"/>
+  <object id="67" x="480" y="384" width="64" height="32"/>
+  <object id="68" x="64" y="384" width="384" height="32"/>
+  <object id="69" x="672" y="384" width="384" height="32"/>
+  <object id="70" x="64" y="544" width="864" height="32"/>
+  <object id="71" x="64" y="928" width="864" height="32"/>
+  <object id="72" x="896" y="576" width="32" height="352"/>
+ </objectgroup>
 </map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" source="floors/floors_tiled_ready.tsx"/>
+ <layer name="Kachelebene 1" width="51" height="47">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEOgCAMQFGM3P/Mjg4ODKUCzWvyR40PIqG31vomRWf192dY7kAznmdhYWFhYWEZW/Qtsq7RZu8rC0u2ZeW/Odty/RQLCwtL1pm62lJpX1hYTrJUuo9F3hWNheU0S6UqresOluiwsLCwsLBkWnaI5Z0HHU8X6w==
+  </data>
+ </layer>
+</map>

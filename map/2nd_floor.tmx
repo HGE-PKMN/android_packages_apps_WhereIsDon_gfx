@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="27">
- <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="1" margin="1">
-  <image source="floors/floors_tiled_ready.png" width="67" height="133"/>
- </tileset>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="28">
+ <tileset firstgid="1" source="floors/floors_tiled_ready.tsx"/>
  <layer name="Kachelebene 1" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJzt1jEOgCAMQFEc5P5HdnRwYCgVaF6TP2p8EAm9tdY3KTqrvz/Dcgea8TwLCwsLCwvL2KJvkXWNNntfWViyLSv/zdmW66dYWFhYss7U1ZZK+8LCcpKl0n0s8q5oLCynWSpVaV13sESHhYWFhYUl07JDLO88Ap0lqQ==
+   eJzt1ssKgDAMRNG6sP//yS5dSamZmIc3MBtByDFNcY4xZpJYK7p/D8tpiOJ9LFiwYMGCBcvaEpWnHrL0FhX1XLFg8bZE7qbacnwULHUsin3LYuk0l24WZaItnebSxcI99g9Lp/8x9Rne7QULlkqWN/u78zzybqn0XTNarIUFCxYsWLB4WjIEy10XkeYlow==
   </data>
  </layer>
  <objectgroup name="Objektebene 1">
-  <properties>
-   <property name="wall" value="true"/>
-  </properties>
   <object id="1" x="0" y="0" width="1120" height="64"/>
   <object id="2" x="1056" y="64" width="64" height="288"/>
   <object id="3" x="1056" y="352" width="576" height="64"/>

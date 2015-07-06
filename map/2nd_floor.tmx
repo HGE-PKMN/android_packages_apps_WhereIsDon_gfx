@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="31">
- <tileset firstgid="1" source="floors/floors_tiled_ready.tsx"/>
+ <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="3" margin="2">
+  <image source="floors/floors_tiled_ready.png" width="71" height="141"/>
+ </tileset>
  <layer name="Kachelebene 1" width="51" height="47">
   <data encoding="base64" compression="zlib">
    eJzt1ssKgDAMRNG6sP//yS5dSamZmIc3MBtByDFNcY4xZpJYK7p/D8tpiOJ9LFiwYMGCBcvaEpWnHrL0FhX1XLFg8bZE7qbacnwULHUsin3LYuk0l24WZaItnebSxcI99g9Lp/8x9Rne7QULlkqWN/u78zzybqn0XTNarIUFCxYsWLB4WjIEy10XkeYlow==

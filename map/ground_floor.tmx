@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="49">
- <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="1" margin="1">
-  <image source="floors/floors_tiled_ready.png" width="67" height="133"/>
+ <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="3" margin="2">
+  <image source="floors/floors_tiled_ready.png" width="71" height="141"/>
  </tileset>
  <layer name="Kachelebene 1" width="51" height="47">
   <data encoding="base64" compression="zlib">

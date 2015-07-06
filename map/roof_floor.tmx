@@ -8,7 +8,7 @@
    eJzt2LsKgDAQRcE0Yv7/iy0FKyGPvcosnDo7gTTprbUe0uhU77/CchbGwsLCwsLC8s4yK5aMWDJjyYwlM5b55844v9JyPGJhmW35y3vZcT/V+7CwJMeSGcueXb78D/NHy+iwsLCwsLCstCTEcs8FvB85Xg==
   </data>
  </layer>
- <objectgroup name="Objektebene 1">
+ <objectgroup name="Objektebene 1" width="51" height="47" >
   <properties>
    <property name="wall" value="true"/>
   </properties>
@@ -24,7 +24,7 @@
   <object id="15" x="1056" y="704" width="32" height="96"/>
   <object id="16" x="1568" y="416" width="64" height="672"/>
  </objectgroup>
- <objectgroup name="Objektebene 2">
+ <objectgroup name="Objektebene 2" width="51" height="47" >
   <properties>
    <property name="spawn" value="true"/>
   </properties>

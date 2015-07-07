@@ -16,7 +16,7 @@
    eJzt08EJgEAMBMD7nw14DWgVVmD/9ZgOJCAkwgws7HM/OwYAAAAAAPB3V/WAD93VA4ASM7Ilemd7ZCV6Z0fkTHTI8v2efB/ePdw7BVM=
   </data>
  </layer>
- <objectgroup name="wall">
+ <objectgroup name="wall" width="51" height="47">
   <properties>
    <property name="wall" value="true"/>
   </properties>
@@ -44,13 +44,13 @@
   <object id="43" x="64" y="384" width="384" height="32"/>
   <object id="45" x="672" y="384" width="384" height="32"/>
  </objectgroup>
- <objectgroup name="spawn">
+ <objectgroup name="spawn" width="51" height="47">
   <properties>
    <property name="spawn" value="true"/>
   </properties>
   <object id="48" x="112" y="1008" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="stairs_up">
+ <objectgroup name="stairs_up" width="51" height="47">
   <properties>
    <property name="stairs_up" value="true"/>
   </properties>

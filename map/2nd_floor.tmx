@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="43">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="50">
  <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="3" margin="2">
-  <image source="floors/floors_tiled_ready.png" width="71" height="141"/>
+  <image source="floors/floors_tiled_ready.png" width="141" height="141"/>
  </tileset>
- <tileset firstgid="9" name="objects_tiled_ready" tilewidth="32" tileheight="32">
+ <tileset firstgid="17" name="objects_tiled_ready" tilewidth="32" tileheight="32">
   <image source="objects/objects_tiled_ready.png" width="448" height="224"/>
  </tileset>
  <layer name="base" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJzt1ssKgDAMRNG6sP//yS5dSamZmIc3MBtByDFNcY4xZpJYK7p/D8tpiOJ9LFiwYMGCBcvaEpWnHrL0FhX1XLFg8bZE7qbacnwULHUsin3LYuk0l24WZaItnebSxcI99g9Lp/8x9Rne7QULlkqWN/u78zzybqn0XTNarIUFCxYsWLB4WjIEy10XkeYlow==
+   eJzt2MEKgCAQRVEDN/n/H9wmaBUhb3SmxxXuKoqOlkSjtTaKpI7s+19hOYUizseCBQsWLFiwfFsy6nezx3alzKta9LpiwbLakvluRluOTblbOpaSFqdnzM0SWbbFaV1cLE77mJOF77F3i3ItNSxY/maZyfk/TLU9tYJFHViwYMGCBctKS4WwPOMChP9A3Q==
   </data>
  </layer>
  <layer name="objects" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJztzgENACAMA7CLQAFCUIB/PZh4spO0CloFAAAAAAD87qQDjW460GilA412OgAAAIM8m0MAwQ==
+   eJztmcsKAjEMRecXfCwFH0vBx1e4F92LHyD+/84gE5Dg2EybTlPnHgjTdBGyuell0jQADMuEYho4962jyXOwpFgFzn3raPIc7Cj2gfMnZ0UdTe6BW/u9FO3Chkf7vRft4jux2n/+qKPJczBm7WvqaHIAQDw852YUc8W9J+Rby3NuTbFR3HtCvrU85w4UR8W9J+RbC3xSs/YlNWtfUrP2ARgazDGfYI75wPKf1MmwVgzSJ6do/2reXT+kT07R/sK4t1RStL/N2xoAbyx9Q2kPYukbSnsQS99Qowfhvdg/7JJ4L+ZtlxSjV96Lde2SoP10xq59AEK8AH51KOM=
   </data>
  </layer>
  <objectgroup name="wall">
@@ -31,18 +31,18 @@
   <object id="9" x="1056" y="736" width="512" height="32"/>
   <object id="10" x="544" y="64" width="32" height="352"/>
   <object id="11" x="544" y="1088" width="32" height="352"/>
-  <object id="12" x="64" y="1088" width="384" height="32"/>
+  <object id="12" x="64" y="1088" width="352" height="32"/>
   <object id="13" x="480" y="1088" width="64" height="32"/>
   <object id="14" x="576" y="1088" width="64" height="32"/>
-  <object id="15" x="672" y="1088" width="384" height="32"/>
+  <object id="15" x="704" y="1088" width="352" height="32"/>
   <object id="16" x="1056" y="768" width="32" height="64"/>
-  <object id="17" x="1056" y="864" width="32" height="224"/>
+  <object id="17" x="1056" y="896" width="32" height="192"/>
   <object id="18" x="1056" y="672" width="32" height="64"/>
-  <object id="19" x="1056" y="416" width="32" height="224"/>
+  <object id="19" x="1056" y="416" width="32" height="192"/>
   <object id="20" x="576" y="384" width="64" height="32"/>
   <object id="21" x="480" y="384" width="64" height="32"/>
-  <object id="22" x="64" y="384" width="384" height="32"/>
-  <object id="23" x="672" y="384" width="384" height="32"/>
+  <object id="22" x="64" y="384" width="352" height="32"/>
+  <object id="23" x="704" y="384" width="352" height="32"/>
   <object id="24" x="64" y="544" width="864" height="32"/>
   <object id="25" x="64" y="928" width="864" height="32"/>
   <object id="26" x="896" y="576" width="32" height="352"/>
@@ -64,5 +64,28 @@
    <property name="stairs_up" value="tru"/>
   </properties>
   <object id="40" x="64" y="960" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="teacher_fight">
+  <properties>
+   <property name="teacher_fight" value="true"/>
+  </properties>
+  <object id="43" x="318.667" y="129.333" width="78.6667" height="236">
+   <ellipse/>
+  </object>
+  <object id="44" x="614.667" y="104" width="410.667" height="164">
+   <ellipse/>
+  </object>
+  <object id="45" x="1138.67" y="452" width="176" height="136">
+   <ellipse/>
+  </object>
+  <object id="46" x="605.333" y="1382.67" width="414.667" height="41.3333">
+   <ellipse/>
+  </object>
+  <object id="47" x="138.667" y="1164" width="198.667" height="256">
+   <ellipse/>
+  </object>
+  <object id="48" x="1188" y="818.667" width="345.333" height="72">
+   <ellipse/>
+  </object>
  </objectgroup>
 </map>

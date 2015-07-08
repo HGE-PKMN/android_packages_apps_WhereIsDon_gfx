@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="85">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="91">
  <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="3" margin="2">
-  <image source="floors/floors_tiled_ready.png" width="71" height="141"/>
+  <image source="floors/floors_tiled_ready.png" width="141" height="141"/>
  </tileset>
- <tileset firstgid="9" name="objects_tiled_ready" tilewidth="32" tileheight="32">
+ <tileset firstgid="17" name="objects_tiled_ready" tilewidth="32" tileheight="32">
   <image source="objects/objects_tiled_ready.png" width="448" height="224"/>
  </tileset>
  <layer name="base" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJzt1ssKgDAMRNGK/f9vdulKSs3EPLyB2QhCjmmKc4wxk8Ra0f17WE5DFO9jwYIFCxYsWNaWqDz1kKW3qKjnigWLtyVyN9WW46NgqWNR7FsWS6e5dLMoE23pNJcuFu6xf1g6/Y+pz/BuL1iwVLK82d+d55F3S6XvmtFiLSxYsGDBgsXTkiFY7roArJgX5Q==
+   eJzt2MEKgCAQRVED8/8/uU3QKkLe6EyPK9xVFB0tiUZrbRRJHdn3v8JyCkWcjwULFixYsGD5tmTU72aP7UqZV7XodcWCZbUl892Mthybcrd0LCUtTs+YmyWybIvTurhYnPYxJwvfY+8W5VpqWLD8zTKT83+YantqBYs6sGDBggULlpWWCmF5xgU/3yWR
   </data>
  </layer>
  <layer name="objects" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJztzgENACAMA7CLQAFCUIB/PZh4spO0CloFAAAAAAD87qQDjW460GilA412OgAAAIM8m0MAwQ==
+   eJztmUsKAjEQROcKfpaCn6Xg5xTuRffiAcT772whSONkYpLuJNNYD4pAFk1vqiiSrgOgHhPSlDQjzSPua83KYUlakdakTcR9rVk57Eh70oF0jLh/c3bnRWFWa27uvDfdQoeHO59Nt+gD75eflYOmXy16HwCLtM5AKbw3tM5AKbw3WM/AsfUG0Me69znWvc+x7n0AahLKK2tZFsora1kWyitkWV2+39cknBRn5cB7stT7V/Xt0uA9Wer9hfJuEqTe35ZbDYAPvoyQdAbteSn4MkLSGbTnpeDLCEln0J5XmqF/MYuM9V8sx6uhfzF4X4d/9z4Av3gBY74sNw==
   </data>
  </layer>
  <objectgroup name="wall">
@@ -31,18 +31,18 @@
   <object id="55" x="1056" y="736" width="512" height="32"/>
   <object id="56" x="544" y="64" width="32" height="352"/>
   <object id="57" x="544" y="1088" width="32" height="352"/>
-  <object id="58" x="64" y="1088" width="384" height="32"/>
+  <object id="58" x="64" y="1088" width="352" height="32"/>
   <object id="59" x="480" y="1088" width="64" height="32"/>
   <object id="60" x="576" y="1088" width="64" height="32"/>
-  <object id="61" x="672" y="1088" width="384" height="32"/>
+  <object id="61" x="704" y="1088" width="352" height="32"/>
   <object id="62" x="1056" y="768" width="32" height="64"/>
-  <object id="63" x="1056" y="864" width="32" height="224"/>
+  <object id="63" x="1056" y="896" width="32" height="192"/>
   <object id="64" x="1056" y="672" width="32" height="64"/>
-  <object id="65" x="1056" y="416" width="32" height="224"/>
+  <object id="65" x="1056" y="416" width="32" height="192"/>
   <object id="66" x="576" y="384" width="64" height="32"/>
   <object id="67" x="480" y="384" width="64" height="32"/>
-  <object id="68" x="64" y="384" width="384" height="32"/>
-  <object id="69" x="672" y="384" width="384" height="32"/>
+  <object id="68" x="64" y="384" width="352" height="32"/>
+  <object id="69" x="704" y="384" width="352" height="32"/>
   <object id="70" x="64" y="544" width="864" height="32"/>
   <object id="71" x="64" y="928" width="864" height="32"/>
   <object id="72" x="896" y="576" width="32" height="352"/>
@@ -64,5 +64,20 @@
    <property name="stairs_up" value="true"/>
   </properties>
   <object id="84" x="64" y="960" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="teacher_fight">
+  <properties>
+   <property name="teacher_fight" value="true"/>
+  </properties>
+  <object id="85" x="290" y="1288" width="206" height="92"/>
+  <object id="86" x="728" y="1230" width="110" height="184"/>
+  <object id="87" x="1160" y="800" width="22" height="262"/>
+  <object id="88" x="1124" y="470" width="206" height="160"/>
+  <object id="89" x="654" y="170" width="340" height="150">
+   <ellipse/>
+  </object>
+  <object id="90" x="358" y="96" width="172" height="146">
+   <ellipse/>
+  </object>
  </objectgroup>
 </map>

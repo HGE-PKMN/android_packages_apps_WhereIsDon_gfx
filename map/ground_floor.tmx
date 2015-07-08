@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="76">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="85">
  <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="3" margin="2">
   <image source="floors/floors_tiled_ready.png" width="141" height="141"/>
  </tileset>
@@ -13,7 +13,7 @@
  </layer>
  <layer name="objects" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJzt08EJgEAMBMDr4WzAa0CrsAL7r8V0IAEhEWZgYZ/72TEAAAAAAIC/u6oHfOiuHgCUmJEt0TvbIyvROzsiZ6JDlu/35Pvw7gF7sQbj
+   eJztmbsKAjEQRfcXfPQ+eh+92gpqJQpqJRZqJf5/513YQFiSTTJmzQTnwCWZEcIWuYMzKQpB+B0dqAv1oH5grmQBLaEVIRebATSERtA4MFeygbbQjpCLzQSaQjNoHpgrOUFn6ELIceMOPaAnIRebEG9wJ8Qbin21HixnpvJ+iDcU12q9Wc5M5X0Kr2p9W37P1fsmUnlfEJqo139XzA29ptfrvyvmhl7T6/XfFXPDVtMFPuTufZ3cva+Tu/cFIRWperk2yKmX+ydyvGO22Qfljq0jfhcF2+yDwjHiWRRs/5NzvGM2pI4JHNH7G5+9D2quborb7Kf0/sZn74Oaq5viNvspvb/x2fug5uqmmGM/5XqzyAnXm0UKqN5verMQ73+PeF8Q3HwADbY66w==
   </data>
  </layer>
  <objectgroup name="stairs_up">
@@ -55,5 +55,20 @@
    <property name="spawn" value="true"/>
   </properties>
   <object id="48" x="112" y="1008" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="teacher_fight">
+  <properties>
+   <property name="teacher_fight" value="true"/>
+  </properties>
+  <object id="77" x="382" y="1222">
+   <polygon points="0,0 40.6667,40 140,-17.3333"/>
+  </object>
+  <object id="79" x="672" y="1248" width="288" height="64"/>
+  <object id="80" x="1193" y="837" width="157" height="63">
+   <ellipse/>
+  </object>
+  <object id="81" x="714.574" y="332.718" width="228.691" height="202.695" rotation="-90.2097"/>
+  <object id="83" x="302" y="278" width="224" height="32"/>
+  <object id="84" x="1284" y="450" width="32" height="256"/>
  </objectgroup>
 </map>

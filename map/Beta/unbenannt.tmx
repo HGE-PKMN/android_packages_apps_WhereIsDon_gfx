@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32">
+  <image source="../../../floors_tiled_ready.png" width="67" height="133"/>
+ </tileset>
+ <tileset firstgid="9" name="terrain32" tilewidth="32" tileheight="32">
+  <image source="../../../Pseudo/terrain32.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Kachelebene 1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt17ENgCAQhWFaChN7B3AMawdgGjdwanMJNATDcQJH8BV/Q4x8xkROa4yxgo7CJHt8ifbcmMEHH3zwze5zPg0f54zYfRrnCd1zyRR8ueu0fNxm8pXMIDV9JV2MUj7pc9HazaiGb80E3/g+OhNS3zaJL9zH/cg3+vuFr52vx/d55PNt9PngTz7t+TSX5nyf8p5R4f8oXu/h4fjegg8++OCbzddiDol7AIJY4Jk=
+  </data>
+ </layer>
+</map>

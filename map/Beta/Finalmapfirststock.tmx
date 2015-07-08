@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="terrain32" tilewidth="32" tileheight="32">
+  <image source="../../../Pseudo/terrain32.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="floors_tiled_ready_resize" tilewidth="32" tileheight="32">
+  <image source="../../../floors_tiled_ready_resize.png" width="71" height="141"/>
+ </tileset>
+ <tileset firstgid="265" name="floors_tiled_ready" tilewidth="32" tileheight="32">
+  <image source="../../../floors_tiled_ready.png" width="67" height="133"/>
+ </tileset>
+ <tileset firstgid="273" name="floors_tiled_ready_resize" tilewidth="32" tileheight="32" spacing="3" margin="2">
+  <image source="../../../floors_tiled_ready_resize.png" width="71" height="141"/>
+ </tileset>
+ <layer name="Kachelebene 1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1tEKgCAMBdDtEyLK///TEBIiVs6pOew+3Ld0B6RtTERsyM5lsdSoSay5KgMffPDBN7svnBnh08yI5BsxT+KdWybJl/tulE+bmXwlO0hLX0m0PcJaRzqnrVnrWzKBz78vsNzbLL7rXX/xeX9f+Pr5vujPnucbO98PvPrI+X5q8eXScr8v9Unepzkj/Yc1tVr53voEfPDBB99Mvh57yD0Hr9VLvg==
+  </data>
+ </layer>
+</map>

@@ -8,14 +8,20 @@
  </tileset>
  <layer name="base" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJzt2EEKwCAMRNFUPFvvf6RuCl0WSTTD8AOzEsFnRMQREUMk2epe/w7LlUjFfCxYsGDBggXLv6Uj883q2Klk9jWb6r5iwYIFy+lMLJIWpzPmZuENo9kXF4vTPeZkcTpj1ZbbyOLUFyyalpU4/8N07quqJVtYsGDBggXLTotCsHz1ANWNCkk=
+   eJzt2EEKwCAMRNFUvP+ZuxFcikTNMPzAX5VCn0opbRHRRMpO9fPfsHyJTtyPBQsWLFiwYFlbKuqj3WuvyqxrttP7igULFiyv61gkLU5nzM3CN4zmvrhYnN5jThanM4YFC5Y6y07O/2Eq11XVkh0sWLBgwYLlpkUhLHN+MMwKBA==
   </data>
  </layer>
  <layer name="objects" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJzt07ENACEMA0B24BeABfhh2H8WsgFKRYo7yZJLN24NAAAAAACgjv16APBEj3yJXtmIzESvbEX+RIcs36/J9+HuAMldBp0=
+   eJzt08EJgEAMBMDr4WzAa0CrsAL7r8V0IAEhEWZgYZ/72TEAAAAAAIC/u6oHfOiuHgCUmJEt0TvbIyvROzsiZ6JDlu/35Pvw7gF7sQbj
   </data>
  </layer>
+ <objectgroup name="stairs_up">
+  <properties>
+   <property name="stairs_up" value="true"/>
+  </properties>
+  <object id="68" x="64" y="960" width="32" height="32"/>
+ </objectgroup>
  <objectgroup name="wall">
   <properties>
    <property name="wall" value="true"/>
@@ -49,11 +55,5 @@
    <property name="spawn" value="true"/>
   </properties>
   <object id="48" x="112" y="1008" width="32" height="32"/>
- </objectgroup>
- <objectgroup name="stairs_up">
-  <properties>
-   <property name="stairs_up" value="true"/>
-  </properties>
-  <object id="68" x="64" y="960" width="32" height="32"/>
  </objectgroup>
 </map>

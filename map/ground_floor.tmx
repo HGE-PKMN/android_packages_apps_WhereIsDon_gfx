@@ -16,7 +16,7 @@
    eJztmTsLQjEMhe9f8LH72H3s6iqokyiokzio00Xw/w9GaKEUS25jbBvMB4dyOpR0OKGPqlKUdLRAbdDTCPNWlhloDloQ5rjpgfpOjZj397ICrUEbwhw3I9DYqRHz/l4kIWkPfq2fFEuuvMRk37I14y6wZq68NM2+y9mMlx/WRcFmu6l/U5vxEVjzADqCTsicBK6gG+iOzClKSjqgboQvDbenD0DDCF8abk+fgKYRvjRCPV0pB+nZd5GefRfp2VeU1Nh7X1NfMv69D/MlQ7kXKvyE3j4oLBnXouC/fXyT/T1jXRT8c7JmX1HSwXluyH0G4ewdufsQZ++Q2IewPwtJlPpnQclr6M9Cs8/Hv2dfUTBevi8+mQ==
   </data>
  </layer>
- <objectgroup name="stairs_up">
+ <objectgroup name="stairs_up" visible="0">
   <properties>
    <property name="stairs_up" value="true"/>
   </properties>

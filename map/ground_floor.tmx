@@ -13,7 +13,7 @@
  </layer>
  <layer name="objects" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJztmUEKAyEMRb1Ce4H2Au0xui/tvvQAZaD3X9QBZcKgGGvUBP6DIB8kxMX/I6NzAIzj4Ovo6xuqpGPl+nB1D06+zm6bsaRzZ4n7uLoHF19Xt81Y0rmzxH1cPYPUGe5hfUyZKM9+1lTteYX1PWLACmq8H/mEdUn04eoecL3P7cPVPZDyrAXvA9DCbfYAhNYcfPYYqgL6rdWQgy3Qb631HFzKW8BkNNyBpLDufYp17wMwEuSYTpBjetD2T6oFek+27n16T4b3ARiPRIZoySGJDNGSQxIZYjWHtL4l/YPWt6SVWt9qfUtagfflewCgkR+dxDZx
+   eJztmUEKAyEMRb1Ce4H2Au0xui/tvvQAZaD3X9QBZcKgGDVqLP9BkA8icfH/hNEYAPpxsHW09XWV0r5i53B1C062zmbrMaVjd/H7uLoFF1tXs/WY0rG7+H1cPYLQHe5ufQzpKM6+11Dtebn13aPBDHK87/m4dQmcw9Ut4Hqfew5Xt0DKszN4H4B/QUMO1kC/tbU5eJNqqhD6ra3NwadgXyUs6S1gMLN7n6JhBpICMxAAfJBjOkGO6UHbP6ka6Jw8u/fpnAzvA9AfiQzRkkMSGaIlhyQyZNYc0vqWVILWt6SVXN9qfUtagfflzwBAIz+oRTZx
   </data>
  </layer>
  <objectgroup name="stairs_up">
@@ -49,12 +49,12 @@
   <object id="73" x="1056" y="416" width="32" height="192"/>
   <object id="74" x="64" y="384" width="352" height="32"/>
   <object id="75" x="704" y="384" width="352" height="32"/>
-  <object id="133" x="128" y="1184" width="64" height="32"/>
-  <object id="134" x="256" y="1184" width="64" height="32"/>
-  <object id="135" x="384" y="1184" width="64" height="32"/>
-  <object id="136" x="128" y="1344" width="64" height="32"/>
-  <object id="137" x="256" y="1344" width="64" height="32"/>
-  <object id="138" x="384" y="1344" width="64" height="32"/>
+  <object id="133" x="96" y="1184" width="64" height="32"/>
+  <object id="134" x="224" y="1184" width="64" height="32"/>
+  <object id="135" x="352" y="1184" width="64" height="32"/>
+  <object id="136" x="96" y="1344" width="64" height="32"/>
+  <object id="137" x="224" y="1344" width="64" height="32"/>
+  <object id="138" x="352" y="1344" width="64" height="32"/>
   <object id="139" x="672" y="1184" width="64" height="32"/>
   <object id="140" x="672" y="1344" width="64" height="32"/>
   <object id="141" x="800" y="1344" width="64" height="32"/>
@@ -79,12 +79,12 @@
   <object id="163" x="800" y="288" width="64" height="32"/>
   <object id="164" x="928" y="288" width="64" height="32"/>
   <object id="165" x="672" y="288" width="64" height="32"/>
-  <object id="166" x="96" y="128" width="64" height="32"/>
-  <object id="167" x="224" y="128" width="64" height="32"/>
-  <object id="168" x="352" y="128" width="64" height="32"/>
-  <object id="169" x="96" y="288" width="64" height="32"/>
-  <object id="170" x="224" y="288" width="64" height="32"/>
-  <object id="171" x="352" y="288" width="64" height="32"/>
+  <object id="166" x="128" y="128" width="64" height="32"/>
+  <object id="167" x="256" y="128" width="64" height="32"/>
+  <object id="168" x="384" y="128" width="64" height="32"/>
+  <object id="169" x="128" y="288" width="64" height="32"/>
+  <object id="170" x="256" y="288" width="64" height="32"/>
+  <object id="171" x="384" y="288" width="64" height="32"/>
  </objectgroup>
  <objectgroup name="spawn">
   <properties>

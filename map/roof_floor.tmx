@@ -11,7 +11,7 @@
  </tileset>
  <layer name="base" width="51" height="47">
   <data encoding="base64" compression="zlib">
-   eJzt2DkKwDAMBVEVbuP7H9elOzXW8iNGMLX1HAIh28y2SK/TvX+G5UtuOWHBggULllqLFxZtS1RYNMKiGRbNsGiGJf7ciPM7Ldn3432Tqzf5uVRaprwvFffTvQ8WLMph0QxLzS5//g8z0fI6WLBgwYIFS6ZFISx3DrydZgA=
+   eJzt2EEKgDAMRNF4AHP/47pUCnbTVGfCL3wEN+mj1IUZESnS6vp7/zss5+aOSY6Wt/eulhxmulueT3dLl3Ppcl+6fMdmYdG2VIVFIyyaYdEMi2ZY6udWzOdcNMNSP5f7gsUhLJph0QzLN3tx/g/T0bK6sGDBggULlp0WhbDc6wJScWhG
   </data>
  </layer>
  <layer name="objects" width="51" height="47">

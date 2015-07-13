@@ -9,6 +9,9 @@
  <tileset firstgid="115" name="objects_teacher" tilewidth="32" tileheight="32">
   <image source="objects/objects_teacher.png" width="448" height="224"/>
  </tileset>
+ <tileset firstgid="213" name="objects_pupils" tilewidth="32" tileheight="32">
+  <image source="objects/objects_pupils.png" width="448" height="224"/>
+ </tileset>
  <layer name="base" width="51" height="47">
   <data encoding="base64" compression="zlib">
    eJzt2MEKgCAQRVED8/8/uU3QKkLe6EyPK9xVFB0tiUZrbRRJHdn3v8JyCkWcjwULFixYsGD5tmTU72aP7UqZV7XodcWCZbUl892Mthybcrd0LCUtTs+YmyWybIvTurhYnPYxJwvfY+8W5VpqWLD8zTKT83+YantqBYs6sGDBggULlpWWCmF5xgU/3yWR
@@ -22,6 +25,11 @@
  <layer name="teachers" width="51" height="47">
   <data encoding="base64" compression="zlib">
    eJzt2DsKgDAQRdHs3k8vbkNFtNMm7stpxSIpwjxI7oFXJcWtJwQAHkZ1QIMmdYDYYlsTfzaPkAIu262OAAAUMasDChrUAQAAwFWvDkCW1u9BAIC/w3aqIzJ1ifdoezxCUK2abnP42tUBQKNetJoLtQ==
+  </data>
+ </layer>
+ <layer name="pupils" width="51" height="47">
+  <data encoding="base64" compression="zlib">
+   eJzt2d0KgCAMgFG7qPd/TXuKFAqGmD+Q2vQ70FVmwtocZgzQ1+mufUuPyd3Pjbf3ewDJjl7Ax7R/4z4eR2Wux3I7nKO2fgCARqlaqHF/mG2PBlpJ9TnkEQANZB3z/Qu1C71p7JVnE8aAc5wxqL/QoOQ/T8n58tscTx5QhxBarV/4+57gc1Tmeul65TOxPF8tzgDauQDVzBZS
   </data>
  </layer>
  <objectgroup name="stairs_down">

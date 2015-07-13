@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="214">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="51" height="47" tilewidth="32" tileheight="32" nextobjectid="227">
  <tileset firstgid="1" name="floors_tiled_ready" tilewidth="32" tileheight="32" spacing="3" margin="2">
   <image source="floors/floors_tiled_ready.png" width="141" height="141"/>
  </tileset>
@@ -133,5 +133,11 @@
   <object id="209" x="1088" y="448" width="96" height="96"/>
   <object id="211" x="768" y="224" width="96" height="96"/>
   <object id="213" x="448" y="256" width="96" height="96"/>
+ </objectgroup>
+ <objectgroup name="moser_hidden">
+  <properties>
+   <property name="moser_hidden" value="true"/>
+  </properties>
+  <object id="226" x="928" y="128" width="32" height="32"/>
  </objectgroup>
 </map>
